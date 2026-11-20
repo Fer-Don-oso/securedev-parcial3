@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_BIN = "C:\Users\ferna\AppData\Local\Programs\DockerDesktop\resources\bin\docker.exe"
+        DOCKER_BIN = 'C:\Users\ferna\AppData\Local\Programs\DockerDesktop\resources\bin\docker.exe'
         IMAGE_NAME = "securedev-web"
         CONTAINER_NAME = "securedev-prod"
     }
