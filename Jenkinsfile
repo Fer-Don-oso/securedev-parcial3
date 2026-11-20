@@ -1,6 +1,7 @@
 pipeline {
     agent any
     environment {
+        PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.LOCALAPPDATA}\\Programs\\Python\\Python311;${env.LOCALAPPDATA}\\Programs\\Python\\Python311\\Scripts;C:\\Program Files\\Python311;C:\\Program Files\\Python311\\Scripts;${env.PATH}"
         IMAGE_NAME = "securedev-web"
         CONTAINER_NAME = "securedev-prod"
     }
